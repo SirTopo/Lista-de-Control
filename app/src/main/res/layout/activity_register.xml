@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/registerTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/registerEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerTitleTextView"
+        android:layout_marginTop="107dp"
+        android:background="@android:color/white"
+        android:hint="INGRESE EL EMAIL"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/registerPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerEmailEditText"
+        android:layout_marginTop="44dp"
+        android:background="@android:color/white"
+        android:hint="INGRESE LA CONTRASEÑA"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerPasswordEditText"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="REGISTRARSE"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

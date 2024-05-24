@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lista de Control</string>
+    <string name="Inicio_Sesion">INICIO DE SESIÓN</string>
+    <string name="ingreso_email">INGRESE EL EMAIL</string>
+    <string name="ingreso_contraseña">INGRESE LA CONTRASEÑA</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="registro">REGISTRO</string>
+    <string name="intentalo_de_nuevo">INTENTALO DE NUEVO</string>
+    <string name="contraseña_incorrecta">CONTRASEÑA INCORRECTA</string>
+    <string name="correo_incorrecto">CORREO ELECTRÓNICO INCORRECTO</string>
+</resources>
