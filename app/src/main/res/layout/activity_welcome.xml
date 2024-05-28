@@ -8,24 +8,25 @@
     tools:context=".WelcomeActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="198dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/logoImageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="106dp"
         android:text="@string/app_name"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
-        android:textColor="@android:color/white" />
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/logoImageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-
+        android:layout_width="159dp"
+        android:layout_height="147dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:src="@drawable/ic_launcher_foreground"
-        android:contentDescription="@string/app_name" />
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo_imagen" />
 
     <Button
         android:id="@+id/loginButton"

@@ -30,6 +30,9 @@
         <!-- Declaración de ErrorActivity -->
         <activity android:name=".ErrorActivity" />
 
+        <!-- Declaración de MainMenuActivity -->
+        <activity android:name=".MainMenuActivity" />
+
     </application>
 
 </manifest>
